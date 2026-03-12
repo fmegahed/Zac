@@ -1,0 +1,103 @@
+# Site
+repository: fmegahed/Zac
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Fadel Megahed
+title: Business Analytics Student | Data Visualization | Optimization Expert
+email: megahefm@miamioh.edu
+# email_title: Email (Email title override)
+# phone: Your phone number (optional)
+# phone_title: Phone (Phone title override)
+# website: Your website (eg. https://google.com)(optional)
+# website_title: Web (Website title override)
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+# twitter_username: jekyllrb
+github_username: fmegahed
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jekyll
+linkedin_username: 
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: jekyll
+# orcid_username: 0000-0000-0000-0000
+# googlescholar_username: D847cGsAAAAJ
+
+# Additional icon links
+# additional_links:
+# - title: Link name
+#   icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me (Use this to override about section title)
+about_profile_image: images/profile.jpg
+about_content: |
+  I'm Fadel Megahed, a business analytics professional passionate about transforming data into actionable insights that drive strategic decision-making. Through my academic journey and hands-on projects, I've developed a strong foundation in leveraging data to solve complex business problems. My recent work exploring occupational and employment wage statistics demonstrates my commitment to uncovering meaningful patterns in real-world datasets that can inform workforce planning and compensation strategies.
+  
+  My technical expertise spans the full analytics lifecycle, from database design and data warehousing to advanced optimization techniques and interactive data visualization. I'm proficient in business intelligence tools and analytical methodologies that enable me to not only analyze data but also communicate findings effectively to diverse stakeholders. I believe that the most powerful analytics solutions are those that combine technical rigor with clear, compelling storytelling.
+  
+  I'm actively seeking opportunities where I can apply my analytical skills to tackle meaningful business challenges, whether through internships, full-time positions, or collaborative projects. I'm particularly interested in roles that allow me to work at the intersection of data analytics and strategic planning, where I can continue growing as an analytics professional while delivering measurable value to organizations.
+
+content:
+  - title: Projects
+    layout: list
+    content:
+      - layout: top-middle
+        title: Exploring the Occupational and Employment Wage Statistics
+        description: |
+          This personal project develops an interactive R Shiny application to explore and visualize Occupational and Employment Wage Statistics data. The application leverages R's data manipulation and visualization capabilities to enable users to analyze wage trends and employment patterns across different occupations and regions. This tool provides valuable insights for workforce planning, career research, and labor market analysis by making complex employment statistics more accessible and understandable.
+          
+          - Developed interactive R Shiny dashboard to visualize and analyze occupational wage statistics across multiple employment sectors and geographic regions
+          - Engineered data processing pipeline using R to clean, transform, and aggregate Bureau of Labor Statistics employment wage data for statistical analysis
+          - Created dynamic data visualization tools enabling users to explore wage trends, compare occupational categories, and identify employment patterns across demographics
+          
+          **Project Files:**
+          - [app.R](https://github.com/fmegahed/Zac/blob/main/projects/exploring-the-occupational-and-employment-wage-sta/app.R)
+  - title: Education
+    layout: list
+    content:
+      - layout: left
+        title: Miami University
+        sub_title: Bachelor's Degree in Information Systems & Analytics
+        caption: Expected 2025
+        description: |
+          Relevant Coursework:
+          - ISA 225: Principles of Business Analytics
+          - ISA 321: Optimization in Business Analytics
+          - ISA 345: Database Systems and Data Warehousing
+          - ISA 401: Business Intelligence and Data Visualization
+  - title: Skills
+    layout: text
+    content: |
+      **Technical Skills:** Data Analysis, SQL, Data Visualization
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/modern-resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
